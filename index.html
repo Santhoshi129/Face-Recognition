@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script async src="./js/face-api.min.js"></script>
+    <script async src="./js/scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="./js/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition</title>
+</head>
+<body>
+    <div id="Body">
+        <div id="Main">
+            <h2 style="margin-left:8%;font-size: 30pt;">🧑🏻Face Recognition</h2>
+
+            <div id="LiveData" style="margin-top: 5%;">
+                <h3 style="margin-left:3%;font-size: 25pt;line-height: 100%;"> 🎥 Live Stream : </h3>
+                <div>
+                    <h3 style="margin-left:10%;font-size: 18pt;line-height: 100%;" id="Accuracy">🚀 Accuracy : </h3>
+                    <h3 style="margin-left:10%;font-size: 18pt;line-height: 100%;" id="Emotions">🤩 Emotions :  </h3>
+                    <h3 style="margin-left:10%;font-size: 18pt;line-height: 100%;" id="Gender">🌈 Gender : </h3>
+                    <h3 style="margin-left:10%;font-size: 18pt;line-height: 100%;" id="Age"> 🎈 Age : </h3>
+                </div>
+            </div>
+            <div id="Tools" >
+                <h3 style="margin-left:3%;font-size: 25pt;line-height: 100%;"> 🧰 Tools Used : </h3>
+                <div>
+                    <h3 style="margin-left:10%;font-size: 18pt;line-height: 100%;">🖥️ JavaScript</h3>
+                    <h3 style="margin-left:10%;font-size: 18pt;line-height: 100%;">🖊️ HTML</h3>
+                    <h3 style="margin-left:10%;font-size: 18pt;line-height: 100%;">🎀 CSS</h3>
+                    <h3 style="margin-left:10%;font-size: 18pt;line-height: 100%;">⭐ FaceAPI</h3>
+
+                </div>
+            </div>
+            <div id="Start" onclick="startVideo()">Start</div>
+        </div>
+        <video id="videoInput"  width="800%" height="600%" autoplay muted controls loop></video>
+    </div>
+</body>
+</html>
+

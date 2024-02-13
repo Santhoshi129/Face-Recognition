@@ -1,0 +1,67 @@
+@font-face {
+font-family: 'Poppins';
+src:  url('../fonts/Poppins-SemiBold.ttf') format('truetype');
+font-weight: 600;
+font-style: normal;
+}
+@font-face {
+font-family: 'Poppins';
+src:  url('../fonts/Poppins-Regular.ttf') format('truetype');
+font-weight: 300;
+font-style: normal;
+}
+@font-face {
+font-family: 'Poppins';
+src:  url('../fonts/Poppins-Medium.ttf') format('truetype');
+font-weight: 500;
+font-style: normal;
+}
+*{
+    color: white;
+    font-family: "Poppins";
+}
+*::-webkit-scrollbar
+{
+display: none;
+}
+#Main{
+    background-color: #98A8F8;
+    width: 35%;
+    height: 100%;
+}
+#Body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+canvas{
+    position: absolute;
+    transform: translateX(78%) translateY(13%) scale(1.3);
+}
+#videoInput{
+    width: 68%;
+    height: 100%;
+}
+#Start{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18pt;
+    color: green;
+    width: 30%;
+    height: 6%;
+    background: white;
+    border-radius: 14pt;
+    transform: translateX(100%);
+    cursor: pointer;
+}
